@@ -1,0 +1,53 @@
+.nav {
+    background-color: #4834DF;
+    height: 10vh;
+    color: white;
+}
+
+.text-center {
+    text-shadow: 2px 2px 5px black;
+    position: absolute;
+    left: 50%;
+    margin-left: -40vh;
+    margin-top: 8px;
+    font-family: 'Carter One', cursive;
+}
+
+.main {
+    height: 90vh;
+    background-color: #2475B0;
+}
+
+.gamepart {
+    background-color: #74B9FF;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+}
+
+.controls {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.controls input {
+    border-radius: 10px;
+    font-size: 30px;
+    height: 40px;
+    width: 250px;
+}
+
+.controls button {
+    color: red;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.hidden {
+    display: none;
+}
